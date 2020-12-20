@@ -1,0 +1,27 @@
+.base-actions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 20px;
+
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+
+  &__add {
+    &:hover {
+      color: #111111;
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+  }
+
+  &__delete {
+    &--selected .MuiIconButton-label {
+      color: #1c1c1c;
+    }
+  }
+
+}

@@ -1,0 +1,14 @@
+.base-task {
+
+  &__description {
+    width: 100%;
+    text-align: left;
+  }
+
+  &__additional-info {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

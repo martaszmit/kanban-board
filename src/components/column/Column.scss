@@ -1,0 +1,28 @@
+.column {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.75);
+  height: 100%;
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+
+  &__content {
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  &__actions {
+    padding: 5px;
+    align-self: end;
+    position: sticky;
+    border-top: 1px solid gray;
+    background-color: #CFCFCF;
+  }
+
+  &__title {
+    margin: 0;
+    padding: 10px;
+    background-color: #CFCFCF;
+  }
+}

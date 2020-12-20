@@ -1,0 +1,13 @@
+.assigned-person {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &__image {
+    max-height: 50px;
+  }
+
+  &__name {
+    white-space: nowrap;
+  }
+}

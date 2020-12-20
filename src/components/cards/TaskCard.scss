@@ -1,0 +1,20 @@
+.task-card {
+  margin: 15px;
+
+  &--selected .MuiCardContent-root {
+    background-color: #f3f3f3;
+  }
+
+  & + & {
+    padding-top: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .MuiCardContent-root:last-child {
+    padding: 16px;
+  }
+
+}
